@@ -1,0 +1,33 @@
+{% extends 'header.html' %}
+{% block Title %} Новости {% endblock %}
+{% block Body %}
+<body>
+{% for page_num in posts.items %}
+    {% if page_num %}
+        {% include 'post.html' %}
+    {% endif %}
+{% endfor %}
+
+{% if posts.has_prev %}
+    <a href="{{ url_for('news', page = posts.prev_num) }}"><< Newer posts</a>
+{% else %}
+    <a style="display: none;" href="{{ url_for('news', page = posts.prev_num) }}"><< Newer posts</a>
+{% endif %}
+{% if posts.has_next and posts.has_prev %}
+    |
+{% endif %}
+{% if posts.has_next %}
+    <a href="{{ url_for('news', page = posts.next_num) }}">Older posts >></a>
+{% else %}
+    <a style="display: none;" href="{{ url_for('news', page = posts.next_num) }}">Older posts >></a>
+{% endif %}
+</body>
+{% endblock %}
+
+{% block Footer %}
+<footer class="py-5 bg-dark">
+    <div class="container px-4">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p>
+    </div>
+</footer>
+{% endblock %}

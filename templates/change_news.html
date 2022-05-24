@@ -1,0 +1,38 @@
+{% extends 'header.html' %}
+{% block Title %} Редактирование новостей {% endblock %}
+{% block Body %}
+<body>
+<form method="post" action="" enctype="multipart/form-data">
+    <div class="card mb-3" id="news-body">
+        <div class="card-body">
+            <h3 class="card-title">{{post[0].title}}</h3>
+            <h6 class="card-subtitle text-muted">{{post[0].intro}}</h6>
+        </div>
+        <img src="/static{{ post[0].img }}" class="d-block user-select-none" width="100%" height="300" focusable="false"
+             style="font-size:1.125rem;text-anchor:middle">
+        <hr>
+
+        <div class="card-body">
+            <p class="card-text">{{ post[0].text }}</p>
+            <p class="card-text">Приложенный файл:&nbsp<a href="/static{{ post[0].file }}">Файл</a></p>
+            <p class="card-text" style="width: fit-content;">{{ form.category.label() }}:&nbsp{{
+                form.category(style="width: 800px;", value=list) }}</p>
+        </div>
+        <div class="card-footer text-muted">
+            <span class="card-link">{{ post[0].author }} </span>
+            {{ post[0].date }}
+            {{ post[1] }}
+        </div>
+        {{ form.submit(value="Upload") }}
+    </div>
+</form>
+</body>
+{% endblock %}
+
+{% block Footer %}
+<footer class="py-5 bg-dark">
+    <div class="container px-4">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p>
+    </div>
+</footer>
+{% endblock %}

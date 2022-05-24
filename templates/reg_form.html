@@ -1,0 +1,53 @@
+{% extends 'head.html' %}
+{% block Title %} Регистрация {% endblock %}
+{% block Body %}
+<body class="text-center">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/signin.css') }}">
+<main class="form-signin">
+    <form method="post">
+        {{ form.csrf_token }}
+        <img class="mb-4" src="{{ url_for('static', filename='data/logo/logo.jpeg') }}" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 fw-normal">Зарегистрируйтесь</h1>
+        <div class="form-floating">
+            {{form.name(class="form-control", style="width: 100%", placeholder="Name")}}
+            {{form.name.label()}}
+        </div>
+        <div class="form-floating">
+            {{form.surname(class="form-control", style="width: 100%", placeholder="Surname")}}
+            {{form.surname.label()}}
+        </div>
+        <div class="form-floating">
+            {{form.email(type="email", class="form-control", style="width: 100%", placeholder="name@example.com")}}
+            {{form.email.label()}}
+        </div>
+        <div class="form-floating">
+            {{form.password(type="password", class="form-control", style="width: 100%; margin-bottom: 0;",
+            placeholder="Password")}}
+            {{form.password.label()}}
+        </div>
+        <div class="form-floating">
+            {{form.old(class="form-control", style="width: 100%", placeholder="Old")}}
+            {{form.old.label()}}
+        </div>
+        <div class="form-floating">
+            {{form.work(class="form-control", style="width: 100%", placeholder="Work")}}
+            {{form.work.label()}}
+        </div>
+        <input type="file" class="form-control" name="photo" style="width: 100%; margin-bottom: 10px;"
+               placeholder="File">
+        {% if message %}
+        <div class="checkbox mb-3">
+            <span style="font-weight: 700; color: red;">Такой пользователь уже существует!</span>
+        </div>
+        {% endif %}
+        <div class="checkbox mb-3">
+            <label>
+                <a href="/login/"> Авторизоваться </a>
+            </label>
+        </div>
+        {{form.submit(class="w-100 btn btn-lg btn-primary")}}
+        <p class="mt-5 mb-3 text-muted"></p>
+    </form>
+</main>
+</body>
+{% endblock %}

@@ -1,0 +1,46 @@
+
+form.profile {
+    margin-left: 12.5%;
+    margin-bottom: 5%;
+}
+
+div.form-group {
+    margin-bottom: 10px;
+}
+
+legend {
+    /*margin-left: 12.5%;*/
+    margin-bottom: 10px;
+}
+
+img.profile_img {
+    border: 1px solid grey;
+}
+
+#change_avatar {
+    margin-bottom: 40px;
+}
+
+#your_info {
+    margin-bottom: 0;
+}
+
+#change_info {
+    margin-bottom: 20px;
+}
+
+#confirm_psw {
+    margin-bottom: 20px;
+}
+
+#work_name_head {
+    width: 300px;
+}
+
+#work_name {
+    width: 150px;
+}
+
+.choice_person{
+    margin-left: 12.5%;
+}

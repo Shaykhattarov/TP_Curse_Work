@@ -1,0 +1,584 @@
+{
+  "response": {
+    "GeoObjectCollection": {
+      "metaDataProperty": {
+        "GeocoderResponseMetaData": {
+          "request": "Вашингтон",
+          "results": "10",
+          "found": "10"
+        }
+      },
+      "featureMember": [
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "Соединённые Штаты Америки, Вашингтон",
+                "kind": "locality",
+                "Address": {
+                  "country_code": "US",
+                  "formatted": "Соединённые Штаты Америки, Вашингтон",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Соединённые Штаты Америки"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "округ Колумбия"
+                    },
+                    {
+                      "kind": "locality",
+                      "name": "Вашингтон"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Соединённые Штаты Америки, Вашингтон",
+                    "CountryNameCode": "US",
+                    "CountryName": "Соединённые Штаты Америки",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "округ Колумбия",
+                      "Locality": {
+                        "LocalityName": "Вашингтон"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "Вашингтон",
+            "description": "Соединённые Штаты Америки",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "-77.119487 38.817139",
+                "upperCorner": "-76.909371 38.995841"
+              }
+            },
+            "Point": {
+              "pos": "-77.036536 38.899513"
+            }
+          }
+        },
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "Соединённые Штаты Америки, штат Вашингтон",
+                "kind": "province",
+                "Address": {
+                  "country_code": "US",
+                  "formatted": "Соединённые Штаты Америки, штат Вашингтон",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Соединённые Штаты Америки"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "штат Вашингтон"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Соединённые Штаты Америки, штат Вашингтон",
+                    "CountryNameCode": "US",
+                    "CountryName": "Соединённые Штаты Америки",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "штат Вашингтон"
+                    }
+                  }
+                }
+              }
+            },
+            "name": "штат Вашингтон",
+            "description": "Соединённые Штаты Америки",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "-124.921125 45.543698",
+                "upperCorner": "-116.916992 49.0025"
+              }
+            },
+            "Point": {
+              "pos": "-119.708569 47.273198"
+            }
+          }
+        },
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "Соединённые Штаты Америки, Северная Каролина, Бофорт-Каунти, город Вашингтон",
+                "kind": "locality",
+                "Address": {
+                  "country_code": "US",
+                  "formatted": "Соединённые Штаты Америки, Северная Каролина, Бофорт-Каунти, город Вашингтон",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Соединённые Штаты Америки"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "Северная Каролина"
+                    },
+                    {
+                      "kind": "area",
+                      "name": "Бофорт-Каунти"
+                    },
+                    {
+                      "kind": "locality",
+                      "name": "город Вашингтон"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Соединённые Штаты Америки, Северная Каролина, Бофорт-Каунти, город Вашингтон",
+                    "CountryNameCode": "US",
+                    "CountryName": "Соединённые Штаты Америки",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "Северная Каролина",
+                      "SubAdministrativeArea": {
+                        "SubAdministrativeAreaName": "Бофорт-Каунти",
+                        "Locality": {
+                          "LocalityName": "город Вашингтон"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "город Вашингтон",
+            "description": "Бофорт-Каунти, Северная Каролина, Соединённые Штаты Америки",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "-77.09569 35.532778",
+                "upperCorner": "-77.02634 35.585805"
+              }
+            },
+            "Point": {
+              "pos": "-77.058276 35.551037"
+            }
+          }
+        },
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "Соединённые Штаты Америки, штат Мэн, округ Вашингтон",
+                "kind": "area",
+                "Address": {
+                  "country_code": "US",
+                  "formatted": "Соединённые Штаты Америки, штат Мэн, округ Вашингтон",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Соединённые Штаты Америки"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "штат Мэн"
+                    },
+                    {
+                      "kind": "area",
+                      "name": "округ Вашингтон"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Соединённые Штаты Америки, штат Мэн, округ Вашингтон",
+                    "CountryNameCode": "US",
+                    "CountryName": "Соединённые Штаты Америки",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "штат Мэн",
+                      "SubAdministrativeArea": {
+                        "SubAdministrativeAreaName": "округ Вашингтон"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "округ Вашингтон",
+            "description": "штат Мэн, Соединённые Штаты Америки",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "-68.106492 44.258299",
+                "upperCorner": "-66.910214 45.6889"
+              }
+            },
+            "Point": {
+              "pos": "-67.550758 45.041298"
+            }
+          }
+        },
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "Соединённые Штаты Америки, штат Вашингтон, Кинг-Каунти, озеро Вашингтон",
+                "kind": "hydro",
+                "Address": {
+                  "country_code": "US",
+                  "formatted": "Соединённые Штаты Америки, штат Вашингтон, Кинг-Каунти, озеро Вашингтон",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Соединённые Штаты Америки"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "штат Вашингтон"
+                    },
+                    {
+                      "kind": "area",
+                      "name": "Кинг-Каунти"
+                    },
+                    {
+                      "kind": "hydro",
+                      "name": "озеро Вашингтон"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Соединённые Штаты Америки, штат Вашингтон, Кинг-Каунти, озеро Вашингтон",
+                    "CountryNameCode": "US",
+                    "CountryName": "Соединённые Штаты Америки",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "штат Вашингтон",
+                      "SubAdministrativeArea": {
+                        "SubAdministrativeAreaName": "Кинг-Каунти",
+                        "Locality": {
+                          "Premise": {
+                            "PremiseName": "озеро Вашингтон"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "озеро Вашингтон",
+            "description": "Кинг-Каунти, штат Вашингтон, Соединённые Штаты Америки",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "-122.300973 47.500482",
+                "upperCorner": "-122.188261 47.75775"
+              }
+            },
+            "Point": {
+              "pos": "-122.242762 47.611194"
+            }
+          }
+        },
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "Соединённые Штаты Америки, штат Айова, Вашингтон-Каунти, Вашингтон",
+                "kind": "locality",
+                "Address": {
+                  "country_code": "US",
+                  "formatted": "Соединённые Штаты Америки, штат Айова, Вашингтон-Каунти, Вашингтон",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Соединённые Штаты Америки"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "штат Айова"
+                    },
+                    {
+                      "kind": "area",
+                      "name": "Вашингтон-Каунти"
+                    },
+                    {
+                      "kind": "locality",
+                      "name": "Вашингтон"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Соединённые Штаты Америки, штат Айова, Вашингтон-Каунти, Вашингтон",
+                    "CountryNameCode": "US",
+                    "CountryName": "Соединённые Штаты Америки",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "штат Айова",
+                      "SubAdministrativeArea": {
+                        "SubAdministrativeAreaName": "Вашингтон-Каунти",
+                        "Locality": {
+                          "LocalityName": "Вашингтон"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "Вашингтон",
+            "description": "Вашингтон-Каунти, штат Айова, Соединённые Штаты Америки",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "-91.710651 41.2837",
+                "upperCorner": "-91.662313 41.323443"
+              }
+            },
+            "Point": {
+              "pos": "-91.690188 41.298097"
+            }
+          }
+        },
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "Соединённые Штаты Америки, Индиана, Дэвиесс-Каунти, Вашингтон",
+                "kind": "locality",
+                "Address": {
+                  "country_code": "US",
+                  "formatted": "Соединённые Штаты Америки, Индиана, Дэвиесс-Каунти, Вашингтон",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Соединённые Штаты Америки"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "Индиана"
+                    },
+                    {
+                      "kind": "area",
+                      "name": "Дэвиесс-Каунти"
+                    },
+                    {
+                      "kind": "locality",
+                      "name": "Вашингтон"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Соединённые Штаты Америки, Индиана, Дэвиесс-Каунти, Вашингтон",
+                    "CountryNameCode": "US",
+                    "CountryName": "Соединённые Штаты Америки",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "Индиана",
+                      "SubAdministrativeArea": {
+                        "SubAdministrativeAreaName": "Дэвиесс-Каунти",
+                        "Locality": {
+                          "LocalityName": "Вашингтон"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "Вашингтон",
+            "description": "Дэвиесс-Каунти, Индиана, Соединённые Штаты Америки",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "-87.193626 38.637743",
+                "upperCorner": "-87.143374 38.67373"
+              }
+            },
+            "Point": {
+              "pos": "-87.170988 38.652298"
+            }
+          }
+        },
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "Соединённые Штаты Америки, штат Огайо, Файет-Каунти, Вашингтон",
+                "kind": "locality",
+                "Address": {
+                  "country_code": "US",
+                  "formatted": "Соединённые Штаты Америки, штат Огайо, Файет-Каунти, Вашингтон",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Соединённые Штаты Америки"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "штат Огайо"
+                    },
+                    {
+                      "kind": "area",
+                      "name": "Файет-Каунти"
+                    },
+                    {
+                      "kind": "locality",
+                      "name": "Вашингтон"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Соединённые Штаты Америки, штат Огайо, Файет-Каунти, Вашингтон",
+                    "CountryNameCode": "US",
+                    "CountryName": "Соединённые Штаты Америки",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "штат Огайо",
+                      "SubAdministrativeArea": {
+                        "SubAdministrativeAreaName": "Файет-Каунти",
+                        "Locality": {
+                          "LocalityName": "Вашингтон"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "Вашингтон",
+            "description": "Файет-Каунти, штат Огайо, Соединённые Штаты Америки",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "-83.444291 39.524619",
+                "upperCorner": "-83.405502 39.559972"
+              }
+            },
+            "Point": {
+              "pos": "-83.435586 39.538699"
+            }
+          }
+        },
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "Объединенные Арабские Эмираты, эмират Дубай, Джумейра, Вашингтон остров",
+                "kind": "other",
+                "Address": {
+                  "country_code": "AE",
+                  "formatted": "Объединенные Арабские Эмираты, эмират Дубай, Джумейра, Вашингтон остров",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Объединенные Арабские Эмираты"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "эмират Дубай"
+                    },
+                    {
+                      "kind": "district",
+                      "name": "Джумейра"
+                    },
+                    {
+                      "kind": "other",
+                      "name": "Вашингтон остров"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Объединенные Арабские Эмираты, эмират Дубай, Джумейра, Вашингтон остров",
+                    "CountryNameCode": "AE",
+                    "CountryName": "Объединенные Арабские Эмираты",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "эмират Дубай",
+                      "Locality": {
+                        "DependentLocality": {
+                          "DependentLocalityName": "Джумейра",
+                          "Premise": {
+                            "PremiseName": "Вашингтон остров"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "Вашингтон остров",
+            "description": "Джумейра, эмират Дубай, Объединенные Арабские Эмираты",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "55.14709 25.211719",
+                "upperCorner": "55.149174 25.213509"
+              }
+            },
+            "Point": {
+              "pos": "55.148222 25.21261"
+            }
+          }
+        },
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "Канада, провинция Онтарио, Вашингтон",
+                "kind": "locality",
+                "Address": {
+                  "country_code": "CA",
+                  "formatted": "Канада, провинция Онтарио, Вашингтон",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Канада"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "провинция Онтарио"
+                    },
+                    {
+                      "kind": "locality",
+                      "name": "Вашингтон"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Канада, провинция Онтарио, Вашингтон",
+                    "CountryNameCode": "CA",
+                    "CountryName": "Канада",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "провинция Онтарио",
+                      "Locality": {
+                        "LocalityName": "Вашингтон"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "Вашингтон",
+            "description": "провинция Онтарио, Канада",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "-80.646488 43.259155",
+                "upperCorner": "-80.514687 43.355407"
+              }
+            },
+            "Point": {
+              "pos": "-80.580588 43.3073"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

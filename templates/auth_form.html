@@ -1,0 +1,35 @@
+{% extends 'head.html' %}
+{% block Title %} Авторизация {% endblock %}
+{% block Body %}
+<body class="text-center">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/signin.css') }}">
+    <main class="form-signin">
+        <img class="mb-4" src="{{ url_for('static', filename='img/logo.jpeg') }}" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 fw-normal">Авторизуйтесь</h1>
+        <form method="post">
+            {{ form.csrf_token }}
+            <div class="form-floating">
+                 {{ form.email(class="form-control", style="width: 100%",  id="floatingInput", placeholder="name@example.com") }}
+                 {{ form.email.label(for="floatingInput") }}
+             </div>
+            <div class="form-floating">
+                {{ form.password(class="form-control", style="width: 100%", placeholder="Password") }}
+                {{ form.password.label() }}
+            </div>
+
+            <div class="checkbox mb-3">
+                <label>
+                    <a href="/reg" > Зарегистрироваться </a>
+                </label>
+            </div>
+            {{ form.submit(class="w-100 btn btn-lg btn-primary")}}
+            <p class="mt-5 mb-3 text-muted"></p>
+        </form>
+
+        <form method="post">
+
+
+        </form>
+    </main>
+</body>
+{% endblock %}

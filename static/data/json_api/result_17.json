@@ -1,0 +1,264 @@
+{
+  "response": {
+    "GeoObjectCollection": {
+      "metaDataProperty": {
+        "GeocoderResponseMetaData": {
+          "request": "Гусь-хрустальный",
+          "results": "10",
+          "found": "4"
+        }
+      },
+      "featureMember": [
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "Россия, Владимирская область, Гусь-Хрустальный",
+                "kind": "locality",
+                "Address": {
+                  "country_code": "RU",
+                  "formatted": "Россия, Владимирская область, Гусь-Хрустальный",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Россия"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "Центральный федеральный округ"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "Владимирская область"
+                    },
+                    {
+                      "kind": "area",
+                      "name": "муниципальное образование Гусь-Хрустальный"
+                    },
+                    {
+                      "kind": "locality",
+                      "name": "Гусь-Хрустальный"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Россия, Владимирская область, Гусь-Хрустальный",
+                    "CountryNameCode": "RU",
+                    "CountryName": "Россия",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "Владимирская область",
+                      "SubAdministrativeArea": {
+                        "SubAdministrativeAreaName": "муниципальное образование Гусь-Хрустальный",
+                        "Locality": {
+                          "LocalityName": "Гусь-Хрустальный"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "Гусь-Хрустальный",
+            "description": "Владимирская область, Россия",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "40.460075 55.579063",
+                "upperCorner": "40.716715 55.688416"
+              }
+            },
+            "Point": {
+              "pos": "40.671045 55.614556"
+            }
+          }
+        },
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "Россия, Владимирская область, Гусь-Хрустальный район",
+                "kind": "area",
+                "Address": {
+                  "country_code": "RU",
+                  "formatted": "Россия, Владимирская область, Гусь-Хрустальный район",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Россия"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "Центральный федеральный округ"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "Владимирская область"
+                    },
+                    {
+                      "kind": "area",
+                      "name": "Гусь-Хрустальный район"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Россия, Владимирская область, Гусь-Хрустальный район",
+                    "CountryNameCode": "RU",
+                    "CountryName": "Россия",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "Владимирская область",
+                      "SubAdministrativeArea": {
+                        "SubAdministrativeAreaName": "Гусь-Хрустальный район"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "Гусь-Хрустальный район",
+            "description": "Владимирская область, Россия",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "39.958232 55.171463",
+                "upperCorner": "41.375998 55.894187"
+              }
+            },
+            "Point": {
+              "pos": "40.698749 55.531555"
+            }
+          }
+        },
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "other",
+                "text": "Россия, Горьковская железная дорога, станция Гусь-Хрустальный",
+                "kind": "railway_station",
+                "Address": {
+                  "country_code": "RU",
+                  "formatted": "Россия, Горьковская железная дорога, станция Гусь-Хрустальный",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Россия"
+                    },
+                    {
+                      "kind": "route",
+                      "name": "Горьковская железная дорога"
+                    },
+                    {
+                      "kind": "railway_station",
+                      "name": "станция Гусь-Хрустальный"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Россия, Горьковская железная дорога, станция Гусь-Хрустальный",
+                    "CountryNameCode": "RU",
+                    "CountryName": "Россия",
+                    "Country": {
+                      "Locality": {}
+                    }
+                  }
+                }
+              }
+            },
+            "name": "станция Гусь-Хрустальный",
+            "description": "Горьковская железная дорога, Россия",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "40.641948 55.614027",
+                "upperCorner": "40.658406 55.623341"
+              }
+            },
+            "Point": {
+              "pos": "40.650177 55.618684"
+            }
+          }
+        },
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "precision": "street",
+                "text": "Россия, Краснодарский край, Сочи, посёлок Лоо, улица Гусь-Хрустальный",
+                "kind": "street",
+                "Address": {
+                  "country_code": "RU",
+                  "formatted": "Россия, Краснодарский край, Сочи, посёлок Лоо, улица Гусь-Хрустальный",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Россия"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "Южный федеральный округ"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "Краснодарский край"
+                    },
+                    {
+                      "kind": "area",
+                      "name": "городской округ Сочи"
+                    },
+                    {
+                      "kind": "locality",
+                      "name": "Сочи"
+                    },
+                    {
+                      "kind": "district",
+                      "name": "посёлок Лоо"
+                    },
+                    {
+                      "kind": "street",
+                      "name": "улица Гусь-Хрустальный"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Россия, Краснодарский край, Сочи, посёлок Лоо, улица Гусь-Хрустальный",
+                    "CountryNameCode": "RU",
+                    "CountryName": "Россия",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "Краснодарский край",
+                      "SubAdministrativeArea": {
+                        "SubAdministrativeAreaName": "городской округ Сочи",
+                        "Locality": {
+                          "LocalityName": "Сочи",
+                          "DependentLocality": {
+                            "DependentLocalityName": "посёлок Лоо",
+                            "Thoroughfare": {
+                              "ThoroughfareName": "улица Гусь-Хрустальный"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "name": "улица Гусь-Хрустальный",
+            "description": "посёлок Лоо, Сочи, Краснодарский край, Россия",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "39.591584 43.71097",
+                "upperCorner": "39.592626 43.714736"
+              }
+            },
+            "Point": {
+              "pos": "39.591989 43.712859"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{% extends 'header.html' %}
+{% block Title %} Создание новостей {% endblock %}
+{% block Body %}
+<body>
+<form method="post" action="" enctype="multipart/form-data">
+    <div class="card mb-3" id="news-body">
+        <div class="card-body">
+            <h3 class="card-title">{{ form.title.label() }}:&nbsp{{form.title()}}</h3>
+            <h6 class="card-subtitle text-muted">{{ form.intro.label() }}:&nbsp{{form.intro()}}</h6>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200"
+             aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice"
+             viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+            <rect width="100%" height="100%" fill="#868e96"></rect>
+
+            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+
+        </svg>
+        {{ form.img.label }}{{ form.img() }}
+        <hr>
+
+        <div class="card-body">
+            <p class="card-text" style="width: fit-content;">{{ form.text.label }}:&nbsp{{ form.text(style="width: 1200px;") }}</p>
+            <p class="card-text">{{ form.file.label() }}:&nbsp{{ form.file() }}</p>
+            <p class="card-text" style="width: fit-content;">{{ form.category.label() }}:&nbsp{{ form.category(style="width: 800px;", value=list) }}</p>
+        </div>
+        <div class="card-footer text-muted">
+            <span class="card-link">{{ form.author.label }}</span>
+            {{ form.date.label }}
+        </div>
+        {{form.submit(value="Upload")}}
+    </div>
+</form>
+</body>
+{% endblock %}
+
+{% block Footer %}
+<footer class="py-5 bg-dark">
+    <div class="container px-4">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p>
+    </div>
+</footer>
+{% endblock %}

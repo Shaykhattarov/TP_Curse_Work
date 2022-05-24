@@ -1,0 +1,40 @@
+{% extends 'header.html' %}
+{% block Title%} Главная страница {% endblock %}
+{% block Body %}
+<body id="page-top">
+    <section class="bg-light" id="about">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Об этой странице</h2>
+                    <p class="lead">Это хорошее место для того, чтобы обсудить эту страницу. На этой странице можно
+                        ввести в поле ввода свой город и получить: </p>
+                    <ul>
+                        <li>Координаты города</li>
+                        <li>Изображение города с Яндекс.Карт</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% block Map %}{% endblock %}
+
+    <section class="bg-light" id="contact">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Контакты</h2>
+                    <p class="lead">Вы можете связаться с техподдержкой сайта. Но контакты я вам не дам. Могу...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+{% endblock %}
+
+{% block Footer %}
+<footer class="py-5 bg-dark">
+    <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
+</footer>
+{% endblock %}

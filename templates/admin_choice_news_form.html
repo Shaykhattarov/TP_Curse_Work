@@ -1,0 +1,11 @@
+{% extends 'header.html' %} {% block Title %}Кабинет администратора{% endblock %} {% block Body%}
+<form class="choice_person" method="post">
+    {{ form.csrf_token }}
+     <legend>Изменить информацию новостного поста</legend>
+    <div class="form-group">
+        <label class="form-label mt-4">Выберите поста для редактирования информации</label>
+        {{form.post(class="form-select", id="exampleSelect2", value=list)}}
+    </div>
+    {{form.submit(type="submit", class="btn btn-primary", style="margin-bottom: 30px;")}}
+</form>
+{% endblock %}

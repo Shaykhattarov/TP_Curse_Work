@@ -1,0 +1,28 @@
+{% extends 'main_pattern.html' %}
+
+{% block Map %}
+<section id="services">
+    <div class="container px-4">
+        <div class="row gx-4 justify-content-center">
+            <div class="col-lg-8">
+                <div class="row">
+                    <h2>Найденный город</h2>
+                    <p class="lead">
+                    <div class="col-md-7 ">
+                        <img class="border" src="../{{img}}">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Результат поиска:</h5>
+                        <ul>
+                            <li><b>Страна:</b><br> {{country}}</li>
+                            <li><b>Область или округ:</b><br> {{federal_area}}</li>
+                            <li><b>Город:</b><br> {{city}}</li>
+                        </ul>
+                    </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,17 @@
+<div class="card mb-3" id="news-body">
+    <div class="card-body">
+        <h3 class="card-title">{{page_num[0].title}}</h3>
+        <h6 class="card-subtitle text-muted">{{page_num[0].intro}}</h6>
+    </div>
+    <img src="/static{{page_num[0].img}}" class="d-block user-select-none" width="100%" height="300" focusable="false"
+         style="font-size:1.125rem;text-anchor:middle">
+    <div class="card-body">
+        <p class="card-text">{{ page_num[0].text }}</p>
+        <p class="card-text">Приложенный файл:&nbsp<a href="/static{{ page_num[0].file }}">Файл</a></p>
+    </div>
+    <div class="card-footer text-muted">
+        <a style="color: #6c757d !important; text-decoration: none;" href='/author/{{ page_num[0].author }}/' > {{ page_num[0].author }} </a>
+        <a style="color: #6c757d !important; text-decoration: none;" href='/category/{{ page_num[1] }}/'>{{ page_num[1] }}</a>
+        {{ page_num[0].date }}
+    </div>
+</div>

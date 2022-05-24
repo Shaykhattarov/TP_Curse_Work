@@ -1,0 +1,11 @@
+{% extends 'header.html' %} {% block Title %}Кабинет администратора{% endblock %} {% block Body%}
+<form class="choice_person" method="post">
+    {{ select_form.csrf_token }}
+     <legend>Изменить информацию пользователей</legend>
+    <div class="form-group">
+        <label class="form-label mt-4">Выберите пользователя для редактирования информации</label>
+        {{select_form.id(class="form-select", id="exampleSelect2", value=list)}}
+    </div>
+    {{select_form.submit(type="submit", class="btn btn-primary", style="margin-bottom: 30px;")}}
+</form>
+{% endblock %}
